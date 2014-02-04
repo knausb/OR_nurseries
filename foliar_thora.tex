@@ -26,6 +26,7 @@
 \usepackage{todonotes}
 \usepackage{siunitx}
 \usepackage{textcomp}
+\usepackage{color}
 
 %\DeclareSIUnit{\molar}{M}
 %\DeclareSIUnit\molar{\mole\per\cubic\deci\metre}
@@ -130,6 +131,17 @@
 
 %\renewcommand\@seccntformat[]{}
 
+Checklist for success!
+
+\begin{enumerate}
+  \item Fasta of sequences used for PCR RFLP development
+  \item Table of PCR RFLP fragment sizes
+  \item The third etc \ldots
+\end{enumerate}
+
+\newpage
+
+
 % Title must be 150 characters or less
 \begin{flushleft}
 {\large
@@ -164,9 +176,9 @@ Knaus, B. J., Fieland, V., and Gr\"{u}nwald, N. J. 20XX. Diversity of foliar \te
 %\section*{Abstract}
 \linenumbers
 
-\todo[color=orange!40, inline]{What is this paper about?}
+%\todo[color=orange!40, inline]{What is this paper about?}
 
-The genus \emph{Phytophthora} is considered to contain some of the most important plant pathogens affecting nursery crops. Given the recent emergence of the sudden oak death pathogen \emph{P. ramorum}, particularly in association with \emph{Rhododendron}, it becomes prudent to characterize \emph{Phytophthora} communities in nursery environments.  Many taxa may present syptoms similar to regulated taxa and may vary in pathogenicity from regulated taxa.  We present a survey of \emph{Phytophthora} taxa observed from nine nurseries in the U.S. state of Oregon.  Incidence and diversity differed largely among nurseries and among season.  The taxa \emph{P. syringae} and \emph{P. plurivora} were widespread and detected at most of the nurseries sampled.  Nine other taxa were also detected but were found either in a single nursery or were shared among only a few nurseries.  Charactertization of the \emph{Phytophthora} communities present in nurseries is an important step towards understanding the ecology of these organisms as well as an aid to nursery managers in determining what risks may be present when observing symptomatic plants.  This study builds on an increasing literature which characterize \emph{Phytophthora} community structure in nurseries.
+The genus \emph{Phytophthora} is considered to contain some of the most important plant pathogens affecting nursery crops. Given the recent emergence of the sudden oak death pathogen \emph{P. ramorum}, particularly in association with \emph{Rhododendron}, it becomes prudent to characterize \emph{Phytophthora} communities in nursery environments.  Many taxa may present syptoms similar to regulated taxa and may vary in pathogenicity from regulated taxa.  We present a survey of \emph{Phytophthora} taxa observed from nine nurseries in the U.S. state of Oregon.  Incidence and diversity of \emph{Phytophthora} communities differed significantly among nurseries and among seasons.  The taxa \emph{P. syringae} and \emph{P. plurivora} were widespread and detected at most of the nurseries sampled.  Nine other taxa were also detected but were found either in a single nursery or were shared among only a few nurseries.  Charactertization of the \emph{Phytophthora} communities present in nurseries is an important step towards understanding the ecology of these organisms as well as an aid to nursery managers in determining what risks may be present when observing symptomatic plants.  This study builds on an increasing literature which characterize \emph{Phytophthora} community structure in nurseries.
 
 
 \hspace{12pt}
@@ -192,29 +204,33 @@ Corresponding author: N. J. Gr\"{u}nwald; E-mail: grunwaln@science.oregonstate.e
 
 \linenumbers
 
-\todo[color=green!40, inline]{Cature the paper in a few sentences.  Abstract too.}
+%\todo[color=green!40, inline]{Cature the paper in a few sentences.  Abstract too.}
 
 The greenhouse and nursery industry in the US state of Oregon is perhaps the most important agricultural industry in the state.  During 2011 its worth was \$742 million USD down from ca. \$1 billion in 2007 \cite{oda_2012}.  This represented 14\% of the state's agricultural production in 2011.  Management and mitigation of plant pathogens to this industry therefore presents an important role in the state's economy.  A fundamental task in this management and mitigation is characterization of the plant pathogens present in these nurseries in order to develop best managmenet practices and critical control points for implementation of systems approaches\cite{parke_grunwald_2012}.
 
 The plant pathogens in the genus \emph{Phytophthora} play an important role in the nursery industry. The nursery industry was severly impacted by the recent emergence of the sudden oak death pathogen \emph{P. ramorum} due to the fact that this pathogen is subject to federal quaratine \cite{werres_etal_2001,grunwald_etal_2008}.  Export of host plant taxa among states in the USA is regulated to prevent further spread of this pathogen.  The sudden oak death pathogen has a broad host range including many taxa important to the nursery industry \cite{tooley_etal_2004, hansen_etal_2005}.  It is now evident that \emph{P. ramorum} emerged at least 3 times in the US and 5 times globally \cite{grunwald_etal_2012,van_poucke_etal_2012}. \emph{P. ramorum} is primarily a foliar pathogen on nursery crops such as \emph{Rhododendron}, \emph{Camellia}, and \emph{Pieris}. However, determining whether lesions observed at a particular location may be attributable to the quarantined \emph{P. ramorum} or any of the non-quarantined species of \emph{Phytophthora} presents a challenge.  Thus, understanding of the community of foliar infecting \emph{Phytophthora} taxa present in nurseries represents an important first step in development and implementation of best management practices.
 
-Here we present a survey of \emph{Phytophthora} communities present on \emph{Rhododendron} in nine commercial nurseries located in the US state of Oregon.  Directed searches were performed to attempt to identify symptomatic \emph{Rhododendron} plants, that is, plants possessing leaves with lesions characteristic of foliar \emph{Phytophthora} infection.  These putatively infected samples were validated using growth on selective media and DNA based tools to confirm their identity.  Seven of the nurseries were sampled during two different seasons (fall and spring), while two were only sampled once (both in the spring).  We used these data to test the hypothesis that \emph{Phytophthora} communities in \emph{Rhododendron} nurseries in Oregon differ significantly among nursery as well as season. A secondary objective was development of a restriction assay useful in rapid and cheap identificaiton of all \emph{Phytophthora} species infecting \emph{Rhododendron}.
+Here we present a survey of \emph{Phytophthora} communities present on \emph{Rhododendron} in nine commercial nurseries located in the US state of Oregon.  Directed searches were performed to attempt to identify symptomatic \emph{Rhododendron} plants, that is, plants possessing leaves with lesions characteristic of foliar \emph{Phytophthora} infection.  These putatively infected samples were validated using growth on selective media and DNA based tools to confirm their identity.  Six of the nurseries were sampled during two different seasons (fall and spring), while three were only sampled once (both in the spring).  We used these data to test the hypothesis that \emph{Phytophthora} communities in \emph{Rhododendron} nurseries in Oregon differ significantly among nursery as well as season. A secondary objective was development of a restriction assay useful in rapid and cost effective identification of \emph{Phytophthora} species infecting \emph{Rhododendron}.
 
 %%%%% ----- Section ----- %%%%%
 
 \section*{\sffamily\normalsize{Materials and Methods}}
 
-\textbf{Sampling strategy.} \emph{Phytophthora} species were systematically sampled focusing on symptomatic lesions observed in contiguous blocks of \emph{Rhododendron} plants in commercial nurseries.  A total of nine \todo[color=green!40]{Val questioned whether this should be seven. We did summarize all nine, so I think this number should be presented.} nurseries were sampled, seven of of which were sampled in both  the spring and fall.  These nurseries represent a majority of Oregon counties in the Willamette Valley (Fig. \ref{fig:map}).  Two sites were sampled within each nursery.  Each site typically consisted of one greenhouse, hoophouse or other group of contiguous \emph{Rhododendron} plants.  Within each site, three blocks of \emph{Rhododendron} plants were sampled following a zig-zag pattern through each block.  Sampled plants were spaced by three to six meters when possible.  Three to four leaves were collected from each of approximately 20 symptomatic plants.
+\todo[color=green!40, inline]{Val questioned whether this should be seven nurseries. We did summarize all nine, so I think this number should be presented.  Also, six and not seven appear to have been sampled during two seasons.}
+
+\textbf{Sampling strategy.} \emph{Phytophthora} species were systematically sampled focusing on symptomatic lesions observed in contiguous blocks of \emph{Rhododendron} plants in commercial nurseries.  A total of nine nurseries were sampled, seven of of which were sampled in both  the spring and fall.  These nurseries represent a majority of Oregon counties in the Willamette Valley (Fig. \ref{fig:map}).  Two sites were sampled within each nursery.  Each site typically consisted of one greenhouse, hoophouse or other group of contiguous \emph{Rhododendron} plants.  Within each site, three blocks of \emph{Rhododendron} plants were sampled following a zig-zag pattern through each block.  Sampled plants were spaced by three to six meters when possible.  Three to four leaves were collected from each of approximately 20 symptomatic plants.
 
 \textbf{Taxonomic validation based on selective media.} In order to validate that collected leaves contained \emph{Phytophthora} lesions, leaves were plated on selective media.  Leaves were collected from each nursery and stored at room temperature overnight.  Leaves were surface sterilized by washing in a 2\% household bleach solution with a subsequent rinse in deionized water.  A flame sterilized paper hole punch was used to cut five to eight disks from the leading edge of leaf lesions.  Disks were embeded in the \emph{Phytophthora} selective media PARP (20\% filtered V8 juice; 100 ppm PCNB; 250 ppm sodium ampicillin; 10 ppm rifampicin; 10 ppm pimaricin)\cite{jeffers_martin_1986} and incubated at 20$^\circ$C until growth was observed (typically 5-7 days).  A plug from the leading edge of these cultures was subcultured on PARP selective media to obtain a clean culture.
 
-\textbf{Taxonomic validation based on genotyping.} Genetic validation of isolates was performed by either restriction fragmentation (PCR-RFLP) of the PCR amplified internal transcribed spacer of the ribosomal DNA (ITS) or restriction combined with sequencing of ITS.  Aerial hyphae were collected from the surface of cultured isolates using a sterile toothpick and transferred to \SI{100}{\micro\liter} deionized water.  The hyphae containing water solution was boiled for five minutes at 95.9$^\circ$C on a ABI 9700 or Veriti thermocycler (Applied Biosystems, Foster City, CA).  Polymerase chain reaction was performed using \SI{5}{\micro\liter} of the boiled hyphal mixture, 1.5 \textmu M MgCl$_{2}$, 0.2 mM of each dNTP, 0.4 mM of primers ITS4 and ITS6 \cite{grunwald_etal_2011, cooke_etal_2000}, \todo[color=green!40]{Is this correct? Needs to be units, not conc.} 0.25 U $Taq$ polymerase (Genscript Corporation, Piscataway, NJ) and molecular grade water to attain a final volume of \SI{25}{\micro\liter}.  The reaction was performed with an initial denaturation at \SI{94}{\celsius} for 3 minutes followed by 35 cycles consisting of one minute annealing at \SI{54}{\celsius}, one minute extension at \SI{72}{\celsius} and one minute denaturation at \SI{94}{\celsius}.  A final extension step was performed at \SI{72}{\celsius} for 10 minutes.
+\textbf{Taxonomic validation based on genotyping.} Genetic validation of isolates was performed by either restriction fragmentation (PCR-RFLP) of the PCR amplified internal transcribed spacer of the ribosomal DNA (ITS) or restriction combined with sequencing of ITS.  Aerial hyphae were collected from the surface of cultured isolates using a sterile toothpick and transferred to \SI{100}{\micro\liter} deionized water.  The hyphae containing water solution was boiled for five minutes at 95.9$^\circ$C on a ABI 9700 or Veriti thermocycler (Applied Biosystems, Foster City, CA).  Polymerase chain reaction was performed using \SI{5}{\micro\liter} of the boiled hyphal mixture, 1.5 \textmu M MgCl$_{2}$, 0.2 mM of each dNTP, 0.4 mM of primers ITS4 and ITS6 \cite{grunwald_etal_2011, cooke_etal_2000}, \todo[color=green!40]{Is this correct? Needs to be units, not conc.} 1.25 U $Taq$ polymerase (Genscript Corporation, Piscataway, NJ) and molecular grade water to attain a final volume of \SI{25}{\micro\liter}.  The reaction was performed with an initial denaturation at \SI{94}{\celsius} for 3 minutes followed by 35 cycles consisting of one minute annealing at \SI{54}{\celsius}, one minute extension at \SI{72}{\celsius} and one minute denaturation at \SI{94}{\celsius}.  A final extension step was performed at \SI{72}{\celsius} for 10 minutes.
 
-\todo[color=orange!40, inline]{Should our known strains be documented?}
+\todo[color=orange!40, inline]{Should our `known' strains be documented?}
 
-Restriction of ITS amplicons was performed with the enzyme \emph{Aci}I according to manufacturer's directions (New England Biolabs, Ipswich, MA).  Digested DNA was fingerprinted on a 2\% agarose gel with a 1kb-plus ladder (Life Technologies, Grand Island, NY) run in 1X TAE buffer for 2.0 hours at 60V.  The banding pattern of each sample was compared to fragment patterns generated from DNA isolated from known samples (Fig. \ref{fig:gel}).  When an unexpected fragement pattern was observed, the amplified ITS locus was sequenced.  Approximately 20\% of the isolates with expected fragment patterns were also sequenced for quality control purposes.  Sequencing was performed at the Oregon State University's Center for Genome Research and Biology using ABI's Big Dye Terminator chemistry and sequenced on an ABI 3730 capillary sequencing machine (Applied Biosystems Inc., Foster City, CA).  Sequences were identified to species using Phytophthora-ID \cite{grunwald_etal_2011}, a web-based blast \cite{altschul_etal_1990} tool with a \emph{Phytophthora} specific database.  Samples which shared greater than a 99\% sequence identity were considered matches while samples with less than 99\% sequence identity were identified to the most similar species and given a `-like' designation.
+The restriction assay was designed by using \emph{Phytophthora} ITS sequences from the National Center for Biotechnology Information (NCBI; http://www.ncbi.nlm.nih.gov/).  These sequences were queried for a restriction enzyme which would produce a diagnostic fingerprinting assay.  This assay was then implemented on our nursery samples.  Restriction of ITS amplicons was performed with the enzyme \emph{Aci}I according to manufacturer's directions (New England Biolabs, Ipswich, MA).  Digested DNA was fingerprinted on a 2\% agarose gel (w/v) with a 1kb-plus ladder (Life Technologies, Grand Island, NY) run in 1X TAE buffer for 2.0 hours at 60V.  When an unexpected fragement pattern was observed, the amplified ITS locus was sequenced.  Approximately 20\% of the isolates with expected fragment patterns were also sequenced for quality control purposes.  Sequencing was performed at the Oregon State University's Center for Genome Research and Biology using ABI's Big Dye Terminator chemistry and sequenced on an ABI 3730 capillary sequencing machine (Applied Biosystems Inc., Foster City, CA).  Sequences were identified to species using Phytophthora-ID \cite{grunwald_etal_2011}, a web-based blast \cite{altschul_etal_1990} tool with a \emph{Phytophthora} specific database.  Samples which shared greater than a 99\% sequence identity were considered matches while samples with less than 99\% sequence identity were identified to the most similar species and given a `-like' designation.
 
-\textbf{Statistical analyses.} A map of Oregon counties sampled was created with the R \cite{R} package Maps in S \cite{r_maps}.  Summaries of nursery diversity were calculated in the R \cite{R} package vegan \cite{vegan}.  These included the sample size, richness (number of species), Shannon-Wiener index, evenness (the Shannon-Wiener index divided by it's maximum expected value in order to scale it from zero to one) and Simpson's index (i.e., the probability that two individuals sampled at random will be of different species).
+\todo[color=orange!40, inline]{Need a fasta of sequences for figshare.}
+
+\textbf{Statistical analyses.} A map of Oregon counties sampled was created with the R package Maps in S \cite{R, r_maps}.  Summaries of nursery diversity were calculated in the R package vegan \cite{R, vegan}.  These included the sample size, richness (number of species), Shannon-Wiener index, evenness (the Shannon-Wiener index divided by it's maximum expected value in order to scale it from zero to one) and Simpson's index (i.e., the probability that two individuals sampled at random will be of different species).
 
 In order to address the hypotheses of whether diversity is evenly partitioned among nurseries, as well as among seasons within nurseries, we used additive diversity partitioning as implemented in the R package vegan \cite{vegan} and discussed in \cite{lande_1996, christ_etal_2003}.  This analysis can be seen as an ANOVA analog where a diversity metric is used as the dependent variable.  Among group diversity ($\beta$-diversity) can be derived from within group diversity ($\alpha$-diversity) subtracted from total diversity ($\gamma$-diversity).  This can be made hierarchical by using $\alpha$-diversity at the next highest level as $\gamma$-diversity for that level.  We used nursery and among season, within nursery as two hierarchcal levels.  In order to correct for a potentially unbalanced sample we used diversity estimates weighted by their proportionality.  To test for significance we randomly assigned diversity among the categories and derived our diversity estimates again, repeating this for a total of 999 times.  Because nurseries B, C and G were only sampled during one season (Table \ref{tab:sample}), they were omitted from this analysis.
 
@@ -222,9 +238,14 @@ In order to address the hypotheses of whether diversity is evenly partitioned am
 
 \section*{\sffamily\normalsize{Results}}
 
-A total of nine nurseries were sampled during 2011 and 2012 (Fig. \ref{fig:map}, Table \ref{tab:sample}).  Of these nurseries, six were visited during two seasons while three nurseries were sampled during one season (Table \ref{tab:sample}).  From these nurseries, a total of 438 isolates were obtained across all locations and dates.  Isolates were identified to species using PCR-RFLP and sequencing of the ITS region. A total of 11 taxa were observed in 438 samples (Table \ref{tab:taxa_counts}).  All sequences were deposited at GenBank (http://www.ncbi.nlm.nih.gov/ accessions \colorbox{orange}{XXXX})\todo[color=yellow!80]{Need GenBank accessions?}.
+A total of nine nurseries were sampled during 2011 and 2012 (Fig. \ref{fig:map}, Table \ref{tab:sample}).  Of these nurseries, six were visited during two seasons while three nurseries were sampled during one season (Table \ref{tab:sample}).  From these nurseries, a total of 438 isolates were obtained across all locations and dates.  Isolates were identified to species using PCR-RFLP and sequencing of the ITS region. A total of 11 taxa were observed in 438 samples (Table \ref{tab:taxa_counts}).
 
-\todo[color=orange!40, inline]{Need a paragraph on the PCR-RFLP assay.}
+An assay based on restriction digestion of PCR amplicons of the ITS region was developed.  A total of \textcolor{red}{999} sequences from \textcolor{red}{12} \emph{Phytophthora} taxa were obtained from NCBI and queried for restriction enzyme fragment patterns.  This resulted in the enzyme \emph{Aci}I being chosen as the most highly diagnostic enzyme (Fig. \ref{fig:gel}).  The taxa \emph{P. hibernalis}, \emph{P. parsiana}, \emph{P. plurivora} and taxon Pgchlamydo each produced a single banding pattern which was unique to each taxon.  Digestion of \emph{P. syringae} samples resulted in four banding patterns.  Three of these were the product of a codominant C/T transversion while the fourth remains uncharacterized.  All four of these fingerprints were unique to \emph{P. syringae}.  Several other taxa shared banding patterns which were unique to a small set of taxa but were not diagnostic within this set.  \emph{P. pini} and \emph{P. citricola} III shared a banding pattern which allowed for identification that a samples was one of these two taxa, but could not distinguish among these taxa.  \emph{P. hedraiandra} and \emph{P. cactorum} shared a banding pattern which was unique to these two taxa but invariable between them.  A single banding pattern was shared by \emph{P. bilorbang}, \emph{P. lacustris} and \emph{P. riparia}.  This assay provides for rapid diagnostics for many taxa encountered in Oregon nursery environments.
+
+%\todo[color=red, inline]{Is hedraiandra spelled correctly?}
+
+
+\todo[color=orange!40, inline]{Need a paragraph on the PCR-RFLP assay.  Should fragment size be reported in text or in a table?  Brian's vote = table.}
 
 %The PCR-RFLP assay was validated by resequencing \colorbox{orange}{XX} isolates after PCR. All isolates could be unabiguously identified using the PCR RFLP assay described in the previous section. Typical digests are shown in Fig. \ref{fig:gel}. \colorbox{orange}{figure 2}\todo[color=yellow!80]{Val, add nice gel images as discussed}).
 
@@ -309,17 +330,17 @@ Map of Oregon counties containing nurseries sampled for \emph{Phytophthora} comm
 
 \begin{figure}[!ht]
 \begin{center}
-%\includegraphics[width=85mm, height=85mm]{../rstuff/nursmap.png}
-\missingfigure[figwidth=6cm]{Gel of PCR RFLP}
+\includegraphics[width=178mm, height=85mm]{../figure_rflp/fig2.pdf}
+%\missingfigure[figwidth=6cm]{Gel of PCR RFLP}
 \end{center}
 \caption{
-Gel image demostrating diagnostic differences among \emph{Phytophthora} taxa. PCR amplicons of the internal transcribed spacer region were digested with the enzyme \emph{Aci}I and resolved on a 2\% agarose gel.  A 1kb-plus DNA ladder is shown in lane 1.
+Gel image demostrating diagnostic differences among \emph{Phytophthora} taxa. PCR amplicons of the internal transcribed spacer region were digested with the enzyme \emph{Aci}I and resolved on a 2\% agarose gel.  A 1kb-plus DNA ladder is shown in lane 1.  Brackets indicate taxa which cannot be differentiated based on this assay.  The ITS region was sequenced for these samples to determine their identity.
 %%should be left justified, as specified by the options to the caption 
 %package.
 }
 \label{fig:gel}
 \end{figure}
-\todo[color=green!40, inline]{I guessed at most of this.  Can Val correct this?}
+%\todo[color=green!40, inline]{I guessed at most of this.  Can Val correct this?}
 \clearpage
 
 
@@ -373,11 +394,11 @@ A & Washington & March & & & December \\
 D & Yamhill & April & & & November \\
 E & Clackamas & & November & April & \\
 F & Marion & & November & March & \\
-G & Marion & &  & March & \\
 H & Clackamas & & & March & November \\
 I & Linn & & & April & December \\
 B & Marion & March & & & \\
 C & Clackamas & April & & & \\
+G & Marion & &  & March & \\
 \hline
 \end{tabular}
 %\begin{flushleft}Table caption
